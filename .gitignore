@@ -1,4 +1,4 @@
 ./myenv/
-./backend/combined.txt
-./backend/test-result/
-./backend/__pycache__/
+./Backend/combined.txt
+./Backend/test-result/
+./Backend/__pycache__/
