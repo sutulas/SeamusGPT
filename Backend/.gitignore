@@ -3,4 +3,5 @@ combined.txt
 test-result-real/
 test-result/checkpoint-500/
 test-result/checkpoint-830/
+test-result/model.safetensors
 __pycache__/
