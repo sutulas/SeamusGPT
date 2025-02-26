@@ -1,7 +1,4 @@
-from transformers import TextDataset, DataCollatorForLanguageModeling
 from transformers import GPT2Tokenizer, GPT2LMHeadModel
-# from datasets import load_dataset
-from transformers import AutoModelForCausalLM, AutoTokenizer, Trainer, TrainingArguments
 
 
 def load_model(model_path):
