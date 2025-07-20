@@ -2,14 +2,14 @@
 
 A conversational AI chatbot built with a fine-tuned GPT-2 model and modern web technologies.
 
-## 🚀 Features
+## Features
 
 - **Fine-tuned GPT-2 Model**: Custom-trained language model for specialized conversations
 - **Real-time Chat Interface**: Modern React-based chat UI with typing indicators
 - **FastAPI Backend**: High-performance REST API with CORS support
 - **Responsive Design**: Clean, professional chat interface
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 SeamusGPT/
@@ -27,7 +27,7 @@ SeamusGPT/
 └── docs/                   # Documentation
 ```
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Backend
 - **FastAPI**: Modern, fast web framework for building APIs
@@ -40,13 +40,13 @@ SeamusGPT/
 - **CSS3**: Modern styling with responsive design
 - **Fetch API**: HTTP client for API communication
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Python 3.8+
 - Node.js 16+
 - npm or yarn
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone the Repository
 
@@ -81,7 +81,7 @@ The frontend application will start on `http://localhost:3000`
 2. Start chatting with SeamusGPT!
 3. The AI will respond based on the fine-tuned model
 
-## 🔧 Configuration
+## Configuration
 
 ### Backend Configuration
 
@@ -95,7 +95,7 @@ The backend can be configured through environment variables:
 
 The frontend connects to the backend API. Update the API endpoint in `src/components/ChatInterface.jsx` if needed.
 
-## 📁 Project Structure
+## Project Structure
 
 ### Backend Files
 
@@ -111,7 +111,7 @@ The frontend connects to the backend API. Update the API endpoint in `src/compon
 - `src/App.js`: Main React application
 - `package.json`: Node.js dependencies and scripts
 
-## 🤖 Model Information
+## Model Information
 
 The project uses a fine-tuned GPT-2 model trained on custom data. The model is loaded from the `models/` directory and generates responses based on user prompts.
 
@@ -124,7 +124,7 @@ The project uses a fine-tuned GPT-2 model trained on custom data. The model is l
   - Top-p: 0.95
   - Max length: Configurable
 
-## 🧪 Development
+## Development
 
 ### Running Tests
 
@@ -150,7 +150,7 @@ cd backend
 python app.py
 ```
 
-## 📝 API Documentation
+## API Documentation
 
 ### Chat Endpoint
 
@@ -170,29 +170,12 @@ Response:
 }
 ```
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
 3. Commit your changes (`git commit -m 'Add some amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Hugging Face for the Transformers library
-- OpenAI for the GPT-2 base model
-- FastAPI for the excellent web framework
-- React team for the frontend framework
-
-## 📞 Support
-
-If you encounter any issues or have questions, please open an issue on GitHub or contact the maintainers.
-
----
 
 **Note**: This project requires the trained model files to be present in the `backend/models/` directory. Make sure to include the model files when deploying or sharing the project. 
